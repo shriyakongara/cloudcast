@@ -1,0 +1,58 @@
+.head
+{
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 10vh;
+}
+
+#location
+{
+    border-radius: 30px;
+    height: 2vh;
+    width:25vw;
+    padding:10px;
+    border:none;
+}
+
+button 
+{
+    margin-left: 10px;
+    border-radius: 20px;
+    width:100px;
+    padding:0.5vw;
+}
+
+button:hover
+{
+    background-color:#08E8DE;
+}
+
+.search:focus
+{
+    background-color: rgb(40,40,40);
+    color:white;
+    border:none;
+}
+
+.out img
+{
+    display:block;
+    margin-top: 1vh;
+    margin-left:3vw;
+}
+
+.imgs
+{
+    display:flex;
+    justify-self:left;
+}
+
+@media screen and (max-width:800px)
+{
+    .imgs
+    {
+        display:flex;
+        justify-content: center;
+    }
+}

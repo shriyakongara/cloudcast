@@ -1,0 +1,227 @@
+#cityinput
+{
+    color:white;
+    margin-top:6vh;
+}
+
+.infobtn
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.date
+{
+    color:white;
+}
+
+
+.body
+{
+    display:grid;
+    grid-template-columns: 25vw 25vw;
+    grid-template-rows:25vh 25vh;
+    justify-content: center;
+    margin-top:6vh;
+    gap:1vw;
+    grid-auto-flow: row;
+    align-content: center;
+}
+
+.a
+{
+    grid-area:1/1/ span 1/span 1;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.b
+{
+    background-color:bisque;
+    border-radius: 15px;
+}
+
+.c
+{
+    background-color: #08E8DE;
+    border-radius: 15px;
+}
+
+.d
+{
+    background-color:#89CFF0;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width:1025px )
+{
+    .body
+{
+    display:grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows:15vh 15vh;
+    justify-content: center;
+    margin-top:5vh;
+    gap:2vw;
+    grid-auto-flow: row;
+    font-size: xx-small;
+}
+
+#moreinfo
+{
+    font-size: 1vw;
+}
+
+#cityinput
+{
+    font-size: medium;
+}
+
+#icons
+{
+    width:30px;
+    height:30px;
+}
+
+}
+
+@media screen and (width:1024px) and (height:600px)
+{
+    .body
+{
+    display:grid;
+    grid-template-columns: 30vw 30vw;
+    grid-template-rows:30vh 30vh;
+    justify-content: center;
+    margin-top:1vh;
+    gap:2vw;
+    grid-auto-flow: row;
+    font-size: smaller;
+}
+
+
+}
+
+.head
+{
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 10vh;
+}
+
+#location
+{
+    border-radius: 30px;
+    height: 2vh;
+    width:25vw;
+    padding:10px;
+    border:none;
+}
+
+button 
+{
+    margin-left: 10px;
+    border-radius: 20px;
+    width:100px;
+    padding:0.5vw;
+}
+
+button:hover
+{
+    background-color:#08E8DE;
+}
+
+.search:focus
+{
+    background-color: rgb(40,40,40);
+    color:white;
+    border:none;
+}
+
+.out img
+{
+    display:block;
+    margin-top: 1vh;
+    margin-left:3vw;
+}
+
+.imgs
+{
+    display:flex;
+    justify-self:left;
+}
+
+@media screen and (max-width:800px)
+{
+    .imgs
+    {
+        display:flex;
+        justify-content: center;
+    }
+
+    #more
+    {
+        width:3vw;
+        height:2vh;
+    }
+
+    #sunrise,#sunset,#wind,#windgust,#weather
+    {
+        font-size: 1.9vw;
+        word-spacing: 1px;
+        margin-top: 0px;
+    }
+
+
+
+}
+
+
+#moreinfo
+{
+    display:flex;
+    justify-content: center;
+    margin-top: 5vh;
+    display:none;
+    overflow: hidden;
+}
+
+.sun ,.weather,.wind
+{
+    border-radius: 10px;
+    width:25vw;
+    height:25vw;
+    margin:0vw 2vw;
+    font-weight: bold;
+    font-size: 1.25vw;
+}
+
+#more
+{
+    padding:5px;
+}
+
+
+#sunrise,#sunset,#wind,#windgust
+{
+    padding:0px 5px;
+}
+
+.sun
+{
+    background-color: #FFCC33;
+}
+
+.wind
+{
+    background-color:#D1F1F9;
+}
+
+.weather
+{
+    background-color: aliceblue;
+}

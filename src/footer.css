@@ -1,0 +1,21 @@
+.footer
+{
+    margin-top:13vh;
+    background-color:rgb(30,30,30);
+    padding:0px;
+    font-weight:500;
+    border-radius: 5px;
+    bottom:0;
+    color:white;
+}
+
+p
+{
+    word-spacing:5px;
+}
+
+#name
+{
+    color:#08E8DE;
+    font-weight: bolder;
+}
